@@ -81,6 +81,7 @@ function cho(ch){
         document.getElementById('sm').style.display="flex";
         document.getElementById('fr').style.display="none";
         document.getElementById('dis').innerHTML="SORRY";
+        document.getElementById('go').style.display="none";
     }
     que=q;
     mi=m;
@@ -107,6 +108,7 @@ function rle(){
     }
 }
 function re(){
+    document.getElementById('go').style.display="none";
     cho(res);
 }
 
