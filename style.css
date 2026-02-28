@@ -82,7 +82,7 @@
 }
 .prc{
     display: grid;
-    grid-template-columns: 33% 66%;
+    grid-template-columns: auto auto;
     grid-template-rows:30%;
     grid-template-areas: "g1 g3"
     "g1 g3"
